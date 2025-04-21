@@ -53,7 +53,19 @@ EcoGuardians empowers individuals to make environmentally conscious decisions by
 | ⚙️ Settings (Change Language) | ![Settings Screen](screenshots/settings.png) |
 | 🌍 Multilanguage Support | ![Multilanguage Screen](screenshots/multilanguage.png) |
 
----
+---![IMG-20250421-WA0008](https://github.com/user-attachments/assets/40b75135-e201-434c-8f22-2cba01d0046b)![IMG-20250421-WA0015](https://github.com/user-attachments/assets/6c08b92b-7277-4056-badf-22a42c02fa78)
+![IMG-20250421-WA0014](https://github.com/user-attachments/assets/c00c1eae-4b6d-4cf9-950e-d7dfd1b4852f)
+![IMG-20250421-WA0013](https://github.com/user-attachments/assets/9edd99cd-e118-40c0-8e96-0be25ee832b4)
+![IMG-20250421-WA0012](https://github.com/user-attachments/assets/e597c47f-a6cb-4c07-ab75-ff23ec015d84)
+![IMG-20250421-WA0011](https://github.com/user-attachments/assets/db75b1b1-aa9b-467c-9847-cdec78991498)
+![IMG-20250421-WA0010](https://github.com/user-attachments/assets/afbd2b5d-a8b4-4f51-af1d-515bce4b7100)
+![IMG-20250421-WA0009](https://github.com/user-attachments/assets/8da28e6d-a85d-48ec-9abf-8243086d0864)
+
+![IMG-20250421-WA0007](https://github.com/user-attachments/assets/883024e0-1cd4-4c17-9311-e58f9ffa9e80)
+![IMG-20250421-WA0006](https://github.com/user-attachments/assets/ceade183-d926-48f8-92c9-2bfc9088202f)
+![IMG-20250421-WA0017](https://github.com/user-attachments/assets/7073f392-e3be-46fa-af80-537f33d27f34)
+![IMG-20250421-WA0016](https://github.com/user-attachments/assets/d7c8eb00-7fea-4fc1-875e-0f2f8df334d6)
+
 
 ## 📱 App Description
 
