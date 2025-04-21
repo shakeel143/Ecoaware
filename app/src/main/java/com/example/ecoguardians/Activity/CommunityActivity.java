@@ -32,49 +32,73 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
 
+// CommunityActivity displays posts and allows users to comment on them.
 public class CommunityActivity extends AppCompatActivity implements PostViewHolder.CommentListener {
 
+    // UI Components
     private RecyclerView postRecyclerView;
     private ProgressBar loadingProgressBar;
     private TextView noPostsTextView;
     private FloatingActionButton fabAddPost;
 
+    // Firebase Database references
     private DatabaseReference postsRef;
     private DatabaseReference commentsRef;
     private DatabaseReference usersRef;
+
+    // Firebase adapter to display posts in RecyclerView
     private FirebaseRecyclerAdapter<PostModel, PostViewHolder> adapter;
+
+    // Stores current user's UID
     private String currentUserId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Enables edge-to-edge display on supported devices
         EdgeToEdge.enable(this);
+
+        // Set layout for the activity
         setContentView(R.layout.activity_community);
+
+        // Initialize back button
         ImageView imgBack = findViewById(R.id.imgBack);
-        imgBack.setOnClickListener(v -> finish());
+        imgBack.setOnClickListener(v -> finish()); // Close activity on back press
+
+        // Get current user ID
         currentUserId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+        // Initialize Firebase references
         postsRef = FirebaseDatabase.getInstance().getReference("CommunityPosts");
         commentsRef = FirebaseDatabase.getInstance().getReference("Comments");
         usersRef = FirebaseDatabase.getInstance().getReference("Users");
 
+        // Initialize UI components
         postRecyclerView = findViewById(R.id.postRecyclerView);
         loadingProgressBar = findViewById(R.id.loadingProgressBar);
         noPostsTextView = findViewById(R.id.noPostsTextView);
         fabAddPost = findViewById(R.id.fabAddPost);
 
+        // Set layout manager for RecyclerView
         postRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        // Firebase options to fetch PostModel data sorted by timestamp
         FirebaseRecyclerOptions<PostModel> options = new FirebaseRecyclerOptions.Builder<PostModel>()
                 .setQuery(postsRef.orderByChild("timestamp"), PostModel.class)
                 .build();
 
+        // Initialize FirebaseRecyclerAdapter to bind data to view holder
         adapter = new FirebaseRecyclerAdapter<PostModel, PostViewHolder>(options) {
+
+            // Bind each post model to its view holder
             @Override
             protected void onBindViewHolder(@NonNull PostViewHolder holder, int position, @NonNull PostModel model) {
-                holder.bind(model, currentUserId);
-                holder.setCommentListener(CommunityActivity.this);
+                holder.bind(model, currentUserId); // Bind post data
+                holder.setCommentListener(CommunityActivity.this); // Set listener for comment actions
             }
 
+            // Inflate layout for each post item
             @NonNull
             @Override
             public PostViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -82,37 +106,45 @@ public class CommunityActivity extends AppCompatActivity implements PostViewHold
                 return new PostViewHolder(view);
             }
 
+            // Handle data changes (e.g. when post list is updated)
             @Override
             public void onDataChanged() {
-                loadingProgressBar.setVisibility(View.GONE);
+                loadingProgressBar.setVisibility(View.GONE); // Hide progress bar
                 if (getItemCount() == 0) {
-                    noPostsTextView.setVisibility(View.VISIBLE);
+                    noPostsTextView.setVisibility(View.VISIBLE); // Show "no posts" text
                 } else {
-                    noPostsTextView.setVisibility(View.GONE);
+                    noPostsTextView.setVisibility(View.GONE); // Hide it if posts exist
                 }
             }
 
+            // Handle Firebase errors
             @Override
             public void onError(@NonNull DatabaseError error) {
                 loadingProgressBar.setVisibility(View.GONE);
-                noPostsTextView.setText(getString(R.string.error_loading_posts));
+                noPostsTextView.setText(getString(R.string.error_loading_posts)); // Display error message
                 noPostsTextView.setVisibility(View.VISIBLE);
             }
         };
 
+        // Set adapter to RecyclerView
         postRecyclerView.setAdapter(adapter);
 
+        // Add Post FAB click listener
         fabAddPost.setOnClickListener(v -> {
+            // Start AddPostActivity when FAB is clicked
             Intent intent = new Intent(CommunityActivity.this, AddPostActivity.class);
             startActivity(intent);
         });
     }
 
+    // Callback when a comment is posted
     @Override
     public void onCommentPosted(String postId, String commentText) {
+        // Reference to comments under a specific post
         DatabaseReference postCommentsRef = commentsRef.child(postId);
-        String commentId = postCommentsRef.push().getKey();
+        String commentId = postCommentsRef.push().getKey(); // Unique ID for comment
 
+        // Create CommentModel with initial data
         CommentModel comment = new CommentModel(
                 commentId,
                 currentUserId,
@@ -120,7 +152,7 @@ public class CommunityActivity extends AppCompatActivity implements PostViewHold
                 System.currentTimeMillis()
         );
 
-        // Add user data to comment
+        // Fetch user data (name and profile image) to attach to comment
         usersRef.child(currentUserId).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -128,13 +160,14 @@ public class CommunityActivity extends AppCompatActivity implements PostViewHold
                     String username = snapshot.child("name").getValue(String.class);
                     String profileImage = snapshot.child("profileImage").getValue(String.class);
 
+                    // Set additional user data to comment
                     comment.setUserName(username);
                     comment.setUserProfileImage(profileImage);
 
-                    // Add comment to database
+                    // Save comment under post
                     postCommentsRef.child(commentId).setValue(comment)
                             .addOnSuccessListener(aVoid -> {
-                                // Update comments count in the post
+                                // Increment comment count in post
                                 postsRef.child(postId).child("commentsCount")
                                         .setValue(ServerValue.increment(1));
                             })
@@ -151,33 +184,40 @@ public class CommunityActivity extends AppCompatActivity implements PostViewHold
         });
     }
 
+    // Callback when comments for a post need to be loaded
     @Override
     public void onCommentsLoaded(int position, String postId) {
+        // Get the view holder at the given position
         PostViewHolder holder = (PostViewHolder) postRecyclerView.findViewHolderForAdapterPosition(position);
         if (holder != null) {
+            // Get reference to the comments of the specific post
             DatabaseReference postCommentsRef = commentsRef.child(postId);
 
+            // Setup FirebaseRecyclerOptions for CommentModel
             FirebaseRecyclerOptions<CommentModel> options = new FirebaseRecyclerOptions.Builder<CommentModel>()
                     .setQuery(postCommentsRef.orderByChild("timestamp"), CommentModel.class)
                     .build();
 
+            // Set up CommentAdapter to load and show comments
             CommentAdapter commentAdapter = new CommentAdapter(options);
             holder.commentsRecyclerView.setLayoutManager(new LinearLayoutManager(CommunityActivity.this));
             holder.commentsRecyclerView.setAdapter(commentAdapter);
-            commentAdapter.startListening();
+            commentAdapter.startListening(); // Start listening for data
         }
     }
 
+    // Start listening for Firebase data when activity starts
     @Override
     protected void onStart() {
         super.onStart();
         loadingProgressBar.setVisibility(View.VISIBLE);
-        adapter.startListening();
+        adapter.startListening(); // Start listening to Firebase data
     }
 
+    // Stop listening when activity stops to avoid memory leaks
     @Override
     protected void onStop() {
         super.onStop();
-        adapter.stopListening();
+        adapter.stopListening(); // Stop listening to Firebase data
     }
 }
