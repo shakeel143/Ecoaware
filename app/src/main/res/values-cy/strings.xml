@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Ceidwadion Eco</string>
+    <string name="email">Ebost</string>
+    <string name="password">Cyfrinair</string>
+    <string name="login">Mewngofnodi</string>
+    <string name="don_t_have_an_account_sign_up">Heb gyfrif? Cofrestrwch</string>
+    <string name="create_account">Creu Cyfrif</string>
+    <string name="full_name">Enw Llawn</string>
+    <string name="sign_up">Cofrestru</string>
+    <string name="already_have_an_account_login">Eisoes â chyfrif? Mewngofnodwch</string>
+    <string name="english">Saesneg</string>
+    <string name="spanish">Sbaeneg</string>
+    <string name="welsh">Cymraeg</string>
+    <string name="select_language">Dewiswch Iaith</string>
+    <string name="language_change_info">Mae newidiadau yn cymryd effaith ar ôl ailgychwyn yr ap.</string>
+    <string name="post_created">Swydd wedi\'i chreu</string>
+    <string name="failed_to_post">Wedi methu â phostio</string>
+    <string name="posting">Yn postio...</string>
+    <string name="enter_a_message">Rhowch neges</string>
+    <string name="error_loading_posts">Gwall wrth lwytho swyddi.</string>
+    <string name="failed_to_post_comment">Wedi methu â phostio sylw</string>
+    <string name="failed_to_load_user_data">Wedi methu â llwytho data defnyddiwr</string>
+    <string name="app_tagline">Mae cynaliadwyedd yn dechrau gyda symlrwydd.</string>
+
+    <!-- Education Topics -->
+    <string name="climate_change_title">Newid Hinsawdd</string>
+    <string name="climate_change_subtitle">Gwresogi byd-eang a\'i effeithiau.</string>
+    <string name="climate_change_desc">Mae newid hinsawdd yn cyfeirio at newidiadau hir-dymor mewn tymheredd a phatrymau tywydd. Gall y newidiadau hyn fod yn naturiol, ond mae gweithgareddau dynol wedi bod yn brif ysgogwr ers y 1800au.</string>
+
+    <string name="pollution_title">Llygredd</string>
+    <string name="pollution_subtitle">Llygredd aer, dŵr a thir.</string>
+    <string name="pollution_desc">Mae llygredd yn cyflwyno deunyddiau niweidiol i\'r amgylchedd. Prif fathau yn cynnwys llygredd aer, dŵr a phridd, sy\'n niweidio ecosystemau ac iechyd.</string>
+
+    <string name="biodiversity_title">Colli Bioamrywiaeth</string>
+    <string name="biodiversity_subtitle">Gostyngiad mewn rhywogaethau ac ecosystemau.</string>
+    <string name="biodiversity_desc">Mae colli bioamrywiaeth yn cynnwys difodiant rhywogaethau, gwaethygu ecosystemau, a cholli amrywiaeth genetig, yn effeithio ar ddiogelwch bwyd, hinsawdd a chydbwysedd bywyd.</string>
+
+    <string name="sustainable_title">Byw Cynaliadwy</string>
+    <string name="sustainable_subtitle">Arferion dyddiol i amddiffyn y Ddaear.</string>
+    <string name="sustainable_desc">Mae byw cynaliadwy yn annog lleihau defnydd o adnoddau\'r Ddaear trwy leihau gwastraff, defnyddio ynni adnewyddadwy, ailgylchu a gwneud penderfyniadau eco-ymwybodol.</string>
+    <string name="logging_in">Yn mewngofnodi...</string>
+    <string name="please_wait">Arhoswch os gwelwch yn dda...</string>
+    <string name="fill_all_fields">Llenwch bob maes</string>
+    <string name="login_successful">Mewngofnodi llwyddiannus</string>
+    <string name="login_failed">Methu Mewngofnodi: </string>
+    <string name="welcome">Croeso!</string>
+
+    <!-- Dashboard Items -->
+    <string name="dashboard_education">Addysg</string>
+    <string name="dashboard_tips_challenges">Awgrymiadau &amp; Heriau</string>
+    <string name="dashboard_tracker">Tracwr</string>
+    <string name="dashboard_community">Cymuned</string>
+    <string name="dashboard_resources">Adnoddau</string>
+    <string name="dashboard_settings">Gosodiadau</string>
+    <string name="recycling">Ailgylchu</string>
+    <string name="gardening">Garddio</string>
+    <string name="energy">Ynni</string>
+    <string name="signup_successful">Cofrestru llwyddiannus</string>
+    <string name="database_error">Gwall Cronfa Ddata: </string>
+    <string name="signup_failed">Methu Cofrestru: </string>
+
+    <!-- Eco Tips -->
+    <string name="tip1_title">Diffoddwch oleuadau pan nad ydych yn eu defnyddio.</string>
+    <string name="tip1_action">Rhowch gynnig ar ddiffodd oleuadau diangen heddiw.</string>
+
+    <string name="tip2_title">Osgowch blastig unwaith ei ddefnyddio.</string>
+    <string name="tip2_action">Ewch â\'ch bag ailadroddadwy eich hun.</string>
+
+    <string name="tip3_title">Cerddwch neu feiciwch am bellter byr.</string>
+    <string name="tip3_action">Hepgwch y car ar gyfer negeseuon byr.</string>
+
+    <string name="tip4_title">Dydd Llun Di-gig</string>
+    <string name="tip4_action">Byddwch yn llysieuwr am ddiwrnod!</string>
+
+    <string name="tip5_title">Defnyddiwch botel ddŵr ailadroddadwy.</string>
+    <string name="tip5_action">Osgowch ddŵr mewn poteli heddiw.</string>
+
+    <string name="tip6_title">Dad-blygiwch ddyfeisiau pan nad ydych yn eu defnyddio.</string>
+    <string name="tip6_action">Arbedwch ynni trwy ddad-blygu electroneg heno.</string>
+
+    <string name="tip7_title">Cymerwch gawodydd byrrach.</string>
+    <string name="tip7_action">Rhowch gynnig ar leihau eich amser cawod 2 funud.</string>
+
+    <string name="tip8_title">Plannwch goeden neu blanhigion mewnol.</string>
+    <string name="tip8_action">Gwyrddhewch eich lle gyda phlanhigyn newydd heddiw!</string>
+
+    <string name="tip9_title">Ailgylchwch bapur, plastig a gwydr.</string>
+    <string name="tip9_action">Trefnwch a gwareduwch eich gwastraff yn gyfrifol.</string>
+
+    <string name="tip10_title">Defnyddiwch lliain yn lle hancesi papur.</string>
+    <string name="tip10_action">Rhowch gynnig ar ddefnyddio lliain yn lle papur heddiw.</string>
+    <string name="action_logged">Gweithred wedi\'i logio!</string>
+    <string name="recycled">Ailgylchwyd</string>
+    <string name="public_transport">Traffordd Cyhoeddus</string>
+    <string name="saved_electricity">Trydan wedi\'i arbed</string>
+    <string name="failed_to_load_logs">Wedi methu â llwytho logiau.</string>
+    <string name="eco_actions">Gweithredoedd Eco</string>
+    <string name="recycle">Ailgylchu</string>
+    <string name="transport">Cludiant</string>
+    <string name="electricity">Trydan</string>
+    <string name="just_now">Nawr</string>
+    <string name="seconds_ago"> eiliad yn ôl</string>
+    <string name="minutes_ago"> munud yn ôl</string>
+    <string name="hours_ago"> awr yn ôl</string>
+    <string name="yesterday">Ddoe</string>
+    <string name="likes"> hoff</string>
+    <string name="comments"> sylw</string>
+    <string name="comment_cannot_be_empty">Ni all sylw fod yn wag</string>
+    <string name="failed_to_like_post">Wedi methu hoffi post</string>
+    <string name="post">✅ Post</string>
+    <string name="paste_image_url_here">Gludwch URL delwedd yma</string>
+    <string name="what_s_your_green_action_today">Beth yw eich gweithred werdd heddiw?</string>
+    <string name="share_your_green_tip_n_create_a_post">🌱 Rhannwch Eich Awgrym Gwyrdd \n Creu post</string>
+    <string name="community_post_thoughts_or_tips">💬 Post Cymuned Meddyliau neu Awgrymiadau</string>
+    <string name="no_posts_available">Dim postiau ar gael.</string>
+    <string name="add_post">Ychwanegu Post</string>
+    <string name="environmental_education">🌱 Addysg Amgylcheddol</string>
+    <string name="resources">🌱 Adnoddau</string>
+    <string name="language_settings">🌍 Gosodiadau Iaith</string>
+    <string name="status_not_accepted">Statws: Heb ei dderbyn</string>
+    <string name="show_another_tip">🔄 Dangos Awgrym Arall</string>
+    <string name="accept_challenge">✅ Derbyn Her</string>
+    <string name="loading_tip">Yn llwytho awgrym...</string>
+    <string name="today_s_eco_tip">🌿 Awgrym Eco Heddiw</string>
+    <string name="sustainability_tracker">🌱 Tracwr Cynaliadwyedd</string>
+    <string name="recycledd">♻️ Ailgylchwyd</string>
+    <string name="public_transportt">🚍 Traffordd Cyhoeddus</string>
+    <string name="saved_electricityy">💡 Trydan wedi\'i arbed</string>
+    <string name="recent_logs">📝 Logiau Diweddar</string>
+    <string name="visit_link">Ewch i\'r Dolen</string>
+    <string name="description_here">Disgrifiad yma...</string>
+    <string name="title">Teitl</string>
+    <string name="write_a_comment">Ysgrifennwch sylw...</string>
+    <string name="_0_comments">0 sylw</string>
+    <string name="_0_likes">0 hoff</string>
+    <string name="_1_hour_ago">1 awr yn ôl</string>
+    <string name="username">Enw defnyddiwr</string>
+
+    <!-- Recycling Resources -->
+    <string-array name="recycling_titles">
+        <item>Awgrymiadau Ailgylchu Plastig</item>
+        <item>Proses Ailgylchu Papur Wedi\'i Esbonio</item>
+        <item>Ailgylchu Metel: Canllaw Cyflawn</item>
+        <item>Sut i Ailgylchu Gwydr: Cam wrth Gam</item>
+        <item>Dulliau Rheoli Gwastraff Electronig yn Pacistan</item>
+    </string-array>
+    <string-array name="recycling_descriptions">
+        <item>Dysgwch ffyrdd effeithiol o ailgylchu plastig.</item>
+        <item>Deallwch y camau sy\'n gysylltiedig ag ailgylchu papur.</item>
+        <item>Canllaw ar sut i ailgylchu mathau gwahanol o fetel.</item>
+        <item>Canllaw syml ar ailgylchu gwydr gartref.</item>
+        <item>Gwybodaeth am waredu gwastraff electronig yn gyfrifol.</item>
+    </string-array>
+    <string-array name="recycling_links">
+        <item>https://www.earthday.org/7-tips-to-recycle-better/</item>
+        <item>https://www.rubicon.com/blog/paper-recycling-process/</item>
+        <item>https://www.recyclingbristol.com/how-to-recycle-metal-waste-a-complete-guide/</item>
+        <item>https://www.rippleglass.com/how-to-recycle-glass-step-by-step/</item>
+        <item>https://www.erecyclerspak.com/</item>
+    </string-array>
+
+    <!-- Gardening Resources -->
+    <string-array name="gardening_titles">
+        <item>Garddio Organig i Ddechreuwyr</item>
+        <item>Compostio Gwastraff Cegin: Dulliau Hawdd</item>
+        <item>15 Blahanyn Mewnol Hawdd i Ddechreuwyr</item>
+        <item>Garddio mewn Cynwysyddion: Y Canllaw Cyflawn</item>
+        <item>Awgrymiadau ar gyfer Creu Eich Gardd Berlysiau Eich Hun</item>
+    </string-array>
+    <string-array name="gardening_descriptions">
+        <item>Canllaw dechreuwyr i ddechrau gardd organig.</item>
+        <item>Dysgwch sut i gompostio sgrapiau cegin gartref.</item>
+        <item>Planhigion mewnol hawdd eu gofalu a\'u cynnal.</item>
+        <item>Awgrymiadau a thechnegau ar gyfer garddio mewn cynwysyddion.</item>
+        <item>Awgrymiadau hawdd ar gyfer sefydlu gardd berlysiau ffyniannus.</item>
+    </string-array>
+    <string-array name="gardening_links">
+        <item>https://bonnieplants.com/blogs/garden-fundamentals/organic-gardening-for-beginners</item>
+        <item>https://www.homebiogas.com/blog/kitchen-waste-composting/</item>
+        <item>https://www.provenwinners.com/leafjoy/easy-indoor-plants</item>
+        <item>https://www.provenwinners.com/container-gardening-guide</item>
+        <item>https://sustainablecapitolhill.org/tips-for-creating-your-own-natural-herb-garden/</item>
+    </string-array>
+
+    <!-- Energy Resources -->
+    <string-array name="energy_titles">
+        <item>Pris Systemau Solar yn Pacistan - 2025</item>
+        <item>Pris Tyrbinau Gwynt yn Pacistan 2025</item>
+        <item>Cynllunio Cartrefi Ynni Effeithlon yn Pacistan</item>
+        <item>Thermostat - Cartrefi Smart yn Pacistan</item>
+        <item>Manteision Golau LED ar gyfer Cartrefi</item>
+    </string-array>
+    <string-array name="energy_descriptions">
+        <item>Gwybodaeth am systemau ynni solar preswyl yn Pacistan.</item>
+        <item>Atebion ynni gwynt fforddiadwy ar gyfer cartrefi.</item>
+        <item>Strategaethau ar gyfer cynllunio cartrefi ynni effeithlon.</item>
+        <item>Ble i ddod o hyd i thermostatau smart ar gyfer cartrefi.</item>
+        <item>Manteision defnyddio golau LED yn eich cartref.</item>
+    </string-array>
+    <string-array name="energy_links">
+        <item>https://alphasolar.com.pk/solar-packages/</item>
+        <item>https://www.ferozepower.com/wind-turbine-price-in-pakistan/</item>
+        <item>https://gharplans.pk/designing-energy-efficient-homes-in-pakistan/</item>
+        <item>https://instock.pk/smart-home/thermostate.html</item>
+        <item>https://www.energy.gov/energysaver/led-lighting</item>
+    </string-array>
+</resources>

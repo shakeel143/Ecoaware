@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">EcoGuardianes</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="don_t_have_an_account_sign_up">¿No tienes una cuenta? Regístrate</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="already_have_an_account_login">¿Ya tienes una cuenta? Iniciar sesión</string>
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="welsh">Galés</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="language_change_info">Los cambios se aplicarán después de reiniciar la aplicación.</string>
+    <string name="post_created">Publicación creada</string>
+    <string name="failed_to_post">Error al publicar</string>
+    <string name="posting">Publicando...</string>
+    <string name="enter_a_message">Escribe un mensaje</string>
+    <string name="error_loading_posts">Error al cargar las publicaciones.</string>
+    <string name="failed_to_post_comment">Error al publicar el comentario</string>
+    <string name="failed_to_load_user_data">Error al cargar los datos del usuario</string>
+
+    <string name="app_tagline">La sostenibilidad comienza con la simplicidad.</string>
+
+    <string name="climate_change_title">Cambio Climático</string>
+    <string name="climate_change_subtitle">Calentamiento global y sus impactos.</string>
+    <string name="climate_change_desc">El cambio climático se refiere a cambios a largo plazo en las temperaturas y los patrones climáticos. Estos cambios pueden ser naturales, pero las actividades humanas han sido el principal impulsor desde el siglo XIX.</string>
+
+    <string name="pollution_title">Contaminación</string>
+    <string name="pollution_subtitle">Contaminación del aire, agua y tierra.</string>
+    <string name="pollution_desc">La contaminación es la introducción de materiales dañinos en el medio ambiente. Los principales tipos incluyen la contaminación del aire, el agua y el suelo, que dañan los ecosistemas y la salud.</string>
+
+    <string name="biodiversity_title">Pérdida de Biodiversidad</string>
+    <string name="biodiversity_subtitle">Disminución de especies y ecosistemas.</string>
+    <string name="biodiversity_desc">La pérdida de biodiversidad incluye la extinción de especies, la degradación de los ecosistemas y la pérdida de diversidad genética, lo que afecta la seguridad alimentaria, el clima y el equilibrio de la vida.</string>
+
+    <string name="sustainable_title">Vida Sostenible</string>
+    <string name="sustainable_subtitle">Hábitos diarios para proteger la Tierra.</string>
+    <string name="sustainable_desc">La vida sostenible fomenta la minimización del uso de los recursos de la Tierra mediante la reducción de residuos, el uso de energías renovables, el reciclaje y las decisiones eco-conscientes.</string>
+    <string name="logging_in">Iniciando sesión</string>
+    <string name="please_wait">Por favor, espera...</string>
+    <string name="fill_all_fields">Completa todos los campos</string>
+    <string name="login_successful">Inicio de sesión exitoso</string>
+    <string name="login_failed">"Error al iniciar sesión: "</string>
+    <string name="welcome">¡Bienvenido!</string>
+
+
+    <string name="dashboard_education">Educación</string>
+    <string name="dashboard_tips_challenges">Consejos y Desafíos</string>
+    <string name="dashboard_tracker">Rastreador</string>
+    <string name="dashboard_community">Comunidad</string>
+    <string name="dashboard_resources">Recursos</string>
+    <string name="dashboard_settings">Ajustes</string>
+    <string name="recycling">Reciclaje</string>
+    <string name="gardening">Jardinería</string>
+    <string name="energy">Energía</string>
+    <string name="signup_successful">Registro exitoso</string>
+    <string name="database_error">"Error de base de datos: "</string>
+    <string name="signup_failed">"Error al registrarse: "</string>
+
+
+    <string name="tip1_title">Apaga las luces cuando no estén en uso.</string>
+    <string name="tip1_action">Intenta apagar las luces innecesarias hoy.</string>
+
+    <string name="tip2_title">Evita el plástico de un solo uso.</string>
+    <string name="tip2_action">Lleva tu propia bolsa reutilizable.</string>
+
+    <string name="tip3_title">Camina o monta en bicicleta distancias cortas.</string>
+    <string name="tip3_action">Evita el coche para recados cortos.</string>
+
+    <string name="tip4_title">Lunes sin carne</string>
+    <string name="tip4_action">¡Sé vegetariano por un día!</string>
+
+    <string name="tip5_title">Usa una botella de agua reutilizable.</string>
+    <string name="tip5_action">Evita el agua embotellada hoy.</string>
+
+    <string name="tip6_title">Desconecta los dispositivos cuando no estén en uso.</string>
+    <string name="tip6_action">Ahorra energía desconectando los electrónicos esta noche.</string>
+
+    <string name="tip7_title">Toma duchas más cortas.</string>
+    <string name="tip7_action">Intenta reducir tu tiempo de ducha en 2 minutos.</string>
+
+    <string name="tip8_title">Planta un árbol o una planta de interior.</string>
+    <string name="tip8_action">¡Haz que tu espacio sea más verde con una nueva planta hoy!</string>
+
+    <string name="tip9_title">Recicla papel, plástico y vidrio.</string>
+    <string name="tip9_action">Clasifica y desecha tus residuos de manera responsable.</string>
+
+    <string name="tip10_title">Usa tela en lugar de toallas de papel.</string>
+    <string name="tip10_action">Intenta usar una toalla de tela en lugar de papel hoy.</string>
+    <string name="action_logged">¡Acción registrada!</string>
+    <string name="recycled">Reciclado</string>
+    <string name="public_transport">Transporte público</string>
+    <string name="saved_electricity">Electricidad ahorrada</string>
+    <string name="failed_to_load_logs">Error al cargar los registros.</string>
+    <string name="eco_actions">Acciones ecológicas</string>
+    <string name="recycle">Reciclar</string>
+    <string name="transport">Transporte</string>
+    <string name="electricity">Electricidad</string>
+    <string name="just_now">Ahora mismo</string>
+    <string name="seconds_ago">" segundos atrás"</string>
+    <string name="minutes_ago">" minutos atrás"</string>
+    <string name="hours_ago">" horas atrás"</string>
+    <string name="yesterday">Ayer</string>
+    <string name="likes">" me gusta"</string>
+    <string name="comments">" comentarios"</string>
+    <string name="comment_cannot_be_empty">El comentario no puede estar vacío</string>
+    <string name="failed_to_like_post">Error al dar me gusta a la publicación</string>
+    <string name="post">✅ Publicar</string>
+    <string name="paste_image_url_here">Pega la URL de la imagen aquí</string>
+    <string name="what_s_your_green_action_today">¿Cuál es tu acción verde hoy?</string>
+    <string name="share_your_green_tip_n_create_a_post">🌱 Comparte tu consejo ecológico \n Crea una publicación</string>
+    <string name="community_post_thoughts_or_tips">💬 Publicación de la comunidad: Ideas o consejos</string>
+    <string name="no_posts_available">No hay publicaciones disponibles.</string>
+    <string name="add_post">Añadir publicación</string>
+    <string name="environmental_education">🌱 Educación Ambiental</string>
+    <string name="resources">🌱 Recursos</string>
+    <string name="language_settings">🌍 Ajustes de idioma</string>
+    <string name="status_not_accepted">Estado: No aceptado</string>
+    <string name="show_another_tip">🔄 Mostrar otro consejo</string>
+    <string name="accept_challenge">✅ Aceptar desafío</string>
+    <string name="loading_tip">Cargando consejo...</string>
+    <string name="today_s_eco_tip">🌿 Consejo ecológico de hoy</string>
+    <string name="sustainability_tracker">🌱 Rastreador de sostenibilidad</string>
+    <string name="recycledd">♻️ Reciclado</string>
+    <string name="public_transportt">🚍 Transporte público</string>
+    <string name="saved_electricityy">💡 Electricidad ahorrada</string>
+    <string name="recent_logs">📝 Registros recientes</string>
+    <string name="visit_link">Visitar enlace</string>
+    <string name="description_here">Descripción aquí...</string>
+    <string name="title">Título</string>
+    <string name="write_a_comment">Escribe un comentario...</string>
+    <string name="_0_comments">0 comentarios</string>
+    <string name="_0_likes">0 me gusta</string>
+    <string name="_1_hour_ago">Hace 1 hora</string>
+    <string name="username">Nombre de usuario</string>
+
+
+    <string-array name="recycling_titles">
+        <item>Consejos para Reciclar Plástico</item>
+        <item>Proceso de Reciclaje de Papel Explicado</item>
+        <item>Reciclaje de Metales: Una Guía Completa</item>
+        <item>Cómo Reciclar Vidrio: Paso a Paso</item>
+        <item>Soluciones de Gestión de Residuos Electrónicos en Pakistán</item>
+    </string-array>
+    <string-array name="recycling_descriptions">
+        <item>Aprende formas efectivas de reciclar plástico.</item>
+        <item>Comprende los pasos involucrados en el reciclaje de papel.</item>
+        <item>Una guía sobre cómo reciclar varios tipos de metales.</item>
+        <item>Una guía sencilla para reciclar vidrio en casa.</item>
+        <item>Información sobre la eliminación responsable de residuos electrónicos.</item>
+    </string-array>
+    <string-array name="recycling_links">
+        <item>https://www.earthday.org/7-tips-to-recycle-better/</item>
+        <item>https://www.rubicon.com/blog/paper-recycling-process/</item>
+        <item>https://www.recyclingbristol.com/how-to-recycle-metal-waste-a-complete-guide/</item>
+        <item>https://www.rippleglass.com/how-to-recycle-glass-step-by-step/</item>
+        <item>https://www.erecyclerspak.com/</item>
+    </string-array>
+
+    <string-array name="gardening_titles">
+        <item>Jardinería Orgánica para Principiantes</item>
+        <item>Compostaje de Desperdicios de Cocina: Métodos Sencillos</item>
+        <item>15 Plantas de Interior Fáciles para Principiantes</item>
+        <item>Jardinería en Contenedores: La Guía Completa</item>
+        <item>Consejos para Crear tu Propio Huerto de Hierbas</item>
+    </string-array>
+    <string-array name="gardening_descriptions">
+        <item>Una guía para principiantes para iniciar un jardín orgánico.</item>
+        <item>Aprende cómo compostar restos de cocina en casa.</item>
+        <item>Plantas de interior de bajo mantenimiento y consejos de cuidado.</item>
+        <item>Consejos y técnicas para la jardinería en contenedores.</item>
+        <item>Consejos fáciles para configurar un huerto de hierbas próspero.</item>
+    </string-array>
+    <string-array name="gardening_links">
+        <item>https://bonnieplants.com/blogs/garden-fundamentals/organic-gardening-for-beginners</item>
+        <item>https://www.homebiogas.com/blog/kitchen-waste-composting/</item>
+        <item>https://www.provenwinners.com/leafjoy/easy-indoor-plants</item>
+        <item>https://www.provenwinners.com/container-gardening-guide</item>
+        <item>https://sustainablecapitolhill.org/tips-for-creating-your-own-natural-herb-garden/</item>
+    </string-array>
+
+    <string-array name="energy_titles">
+        <item>Precio del Sistema Solar en Pakistán - 2025</item>
+        <item>Precio de la Turbina Eólica en Pakistán 2025</item>
+        <item>Diseño de Viviendas Energéticamente Eficientes en Pakistán</item>
+        <item>Termostato - Hogar Inteligente En Pakistán</item>
+        <item>Beneficios de la Iluminación LED para Hogares</item>
+    </string-array>
+    <string-array name="energy_descriptions">
+        <item>Información sobre sistemas de energía solar residencial en Pakistán.</item>
+        <item>Soluciones de energía eólica asequibles para hogares.</item>
+        <item>Estrategias para el diseño de viviendas energéticamente eficientes.</item>
+        <item>Dónde encontrar termostatos inteligentes para hogares.</item>
+        <item>Ventajas de usar luces LED en tu hogar.</item>
+    </string-array>
+    <string-array name="energy_links">
+        <item>https://alphasolar.com.pk/solar-packages/</item>
+        <item>https://www.ferozepower.com/wind-turbine-price-in-pakistan/</item>
+        <item>https://gharplans.pk/designing-energy-efficient-homes-in-pakistan/</item>
+        <item>https://instock.pk/smart-home/thermostate.html</item>
+        <item>https://www.energy.gov/energysaver/led-lighting</item>
+    </string-array>
+
+
+</resources>
