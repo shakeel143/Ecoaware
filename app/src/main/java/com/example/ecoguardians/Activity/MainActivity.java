@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -26,13 +27,14 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
 // MainActivity is the main dashboard screen that appears after user logs in
 public class MainActivity extends AppCompatActivity {
 
     // UI elements
     private RecyclerView recyclerView; // RecyclerView to display dashboard items
     private TextView welcomeText; // TextView to show a welcome message with the user's name and language
-
+    private ImageView ivLogout;
     // Firebase instances
     private FirebaseAuth mAuth;
     private DatabaseReference dbRef;
@@ -47,11 +49,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         // Initialize views
+        ivLogout = findViewById(R.id.ivLogout);
         welcomeText = findViewById(R.id.welcomeText);
         recyclerView = findViewById(R.id.dashboardRecycler);
 
         // Initialize Firebase Authentication
         mAuth = FirebaseAuth.getInstance();
+        ivLogout.setOnClickListener(v -> {
+            FirebaseAuth.getInstance().signOut();
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            finish();
+        });
 
         // Check if the user is logged in
         FirebaseUser currentUser = mAuth.getCurrentUser();

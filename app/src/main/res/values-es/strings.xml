@@ -142,7 +142,7 @@
         <item>Proceso de Reciclaje de Papel Explicado</item>
         <item>Reciclaje de Metales: Una Guía Completa</item>
         <item>Cómo Reciclar Vidrio: Paso a Paso</item>
-        <item>Soluciones de Gestión de Residuos Electrónicos en Pakistán</item>
+        <item>Soluciones de Gestión de Residuos Electrónicos</item>
     </string-array>
     <string-array name="recycling_descriptions">
         <item>Aprende formas efectivas de reciclar plástico.</item>
@@ -182,14 +182,14 @@
     </string-array>
 
     <string-array name="energy_titles">
-        <item>Precio del Sistema Solar en Pakistán - 2025</item>
-        <item>Precio de la Turbina Eólica en Pakistán 2025</item>
-        <item>Diseño de Viviendas Energéticamente Eficientes en Pakistán</item>
-        <item>Termostato - Hogar Inteligente En Pakistán</item>
+        <item>Precio del Sistema Solar 2025</item>
+        <item>Precio de la Turbina Eólica 2025</item>
+        <item>Diseño de Viviendas Energéticamente Eficientes</item>
+        <item>Termostato - Hogar Inteligente </item>
         <item>Beneficios de la Iluminación LED para Hogares</item>
     </string-array>
     <string-array name="energy_descriptions">
-        <item>Información sobre sistemas de energía solar residencial en Pakistán.</item>
+        <item>Información sobre sistemas de energía solar residencial</item>
         <item>Soluciones de energía eólica asequibles para hogares.</item>
         <item>Estrategias para el diseño de viviendas energéticamente eficientes.</item>
         <item>Dónde encontrar termostatos inteligentes para hogares.</item>

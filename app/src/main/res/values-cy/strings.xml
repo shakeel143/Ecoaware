@@ -142,7 +142,7 @@
         <item>Proses Ailgylchu Papur Wedi\'i Esbonio</item>
         <item>Ailgylchu Metel: Canllaw Cyflawn</item>
         <item>Sut i Ailgylchu Gwydr: Cam wrth Gam</item>
-        <item>Dulliau Rheoli Gwastraff Electronig yn Pacistan</item>
+        <item>Dulliau Rheoli Gwastraff Electronig yn </item>
     </string-array>
     <string-array name="recycling_descriptions">
         <item>Dysgwch ffyrdd effeithiol o ailgylchu plastig.</item>
@@ -184,14 +184,14 @@
 
     <!-- Energy Resources -->
     <string-array name="energy_titles">
-        <item>Pris Systemau Solar yn Pacistan - 2025</item>
-        <item>Pris Tyrbinau Gwynt yn Pacistan 2025</item>
-        <item>Cynllunio Cartrefi Ynni Effeithlon yn Pacistan</item>
-        <item>Thermostat - Cartrefi Smart yn Pacistan</item>
+        <item>Pris Systemau Solar  - 2025</item>
+        <item>Pris Tyrbinau Gwynt  2025</item>
+        <item>Cynllunio Cartrefi Ynni Effeithlon </item>
+        <item>Thermostat - Cartrefi Smart </item>
         <item>Manteision Golau LED ar gyfer Cartrefi</item>
     </string-array>
     <string-array name="energy_descriptions">
-        <item>Gwybodaeth am systemau ynni solar preswyl yn Pacistan.</item>
+        <item>Gwybodaeth am systemau ynni solar preswyl </item>
         <item>Atebion ynni gwynt fforddiadwy ar gyfer cartrefi.</item>
         <item>Strategaethau ar gyfer cynllunio cartrefi ynni effeithlon.</item>
         <item>Ble i ddod o hyd i thermostatau smart ar gyfer cartrefi.</item>

@@ -146,7 +146,7 @@
         <item>Paper Recycling Process Explained</item>
         <item>Metal Recycling: A Complete Guide</item>
         <item>How to Recycle Glass: Step-by-Step</item>
-        <item>E-waste Management Solutions in Pakistan</item>
+        <item>E-waste Management Solutions</item>
     </string-array>
     <string-array name="recycling_descriptions">
         <item>Learn effective ways to recycle plastic.</item>
@@ -188,14 +188,14 @@
 
     <!-- Energy Resources -->
     <string-array name="energy_titles">
-        <item>Solar System Price in Pakistan - 2025</item>
-        <item>Wind Turbine Price in Pakistan 2025</item>
-        <item>Designing Energy Efficient Homes in Pakistan</item>
-        <item>Thermostat - Smart Home In Pakistan</item>
+        <item>Solar System Price in 2025</item>
+        <item>Wind Turbine Price in  2025</item>
+        <item>Designing Energy Efficient Homes </item>
+        <item>Thermostat - Smart Home </item>
         <item>LED Lighting Benefits for Homes</item>
     </string-array>
     <string-array name="energy_descriptions">
-        <item>Information on residential solar energy systems in Pakistan.</item>
+        <item>Information on residential solar energy systems.</item>
         <item>Affordable wind energy solutions for homes.</item>
         <item>Strategies for energy-efficient home design.</item>
         <item>Where to find smart thermostats for homes.</item>
